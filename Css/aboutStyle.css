@@ -1,0 +1,88 @@
+body{
+	background-image: url(../Image/background.jpg);
+	font-size: 11pt;
+}
+
+*{	
+	margin:0 auto;
+	padding:0 auto;
+}
+				
+#wrap{	
+	width: 1000px;
+	height: 1750px;
+}
+				 
+#headLeft{	
+	width: 300px;
+	height: 300px;
+	float: left;
+	background:url(../Image/violinleft.jpg);
+}
+					 
+#headRight{	
+	width: 700px;
+	height: 300px;
+	float: left;
+	background:url(../Image/violinright2.jpg);
+}
+					  
+#body{	clear:both;}
+			
+#bodyLeft{	
+	width: 750px;
+	height: 1420px;
+	float: left;
+	background-color: #feea67;
+	font-family: "Khmer Nettra",sans-serif;
+	color:#414eff;
+}
+					 
+#bodyRight{	
+	width: 250px;
+	height: 1420px;
+	float: left;
+	background:url(../Image/music.jpg);
+}
+			
+#footer{	
+	width: 1000px;
+	height: 30px;
+	clear: both;
+	background-color: #57514c;
+}
+				   				   
+#pic{	
+	width: 12px;
+	height:12px;
+}
+					
+#fb{	
+	width: 35px;
+	height:35px;
+	padding-left:15px;
+	margin-top:1310px;
+}
+					
+#yt{	
+	width: 35px;
+	height:35px;
+	padding-left:25px;
+	margin-top:1310px;
+}
+					
+#gg{	
+	width: 35px;
+	height:35px;
+	padding-left:25px;
+	margin-top:1310px;
+}
+					
+#link{	
+	margin-top:0;
+	margin-left:15px;
+}
+
+#fb:hover, #yt:hover, #gg:hover {
+	opacity: 0.7;
+}

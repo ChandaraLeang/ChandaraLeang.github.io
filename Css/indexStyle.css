@@ -1,0 +1,146 @@
+body {
+    background-image: url('../Image/background.jpg');
+}
+
+*{	margin:0 auto;
+	padding:0 auto;
+}
+				
+#wrap{	
+	width: 1000px;
+	height: 1700px;
+}
+
+table.center {
+    width:95%; 
+    margin-left:5%; 
+}
+				 
+#headLeft{	
+	width: 300px;
+	height: 300px;
+	float: left;
+	background:url(../Image/violinleft.jpg);
+}
+					 
+#headRight{	
+	width: 700px;
+	height: 300px;
+	float: left;
+	background:url(../Image/violinright2.jpg);
+}
+					  
+#body{	clear:both;}
+			
+#bodyLeft{	
+	width: 750px;
+	height: 1370px;
+	float: left;
+	background-color: #feea67;
+	font-family: "Khmer Nettra",sans-serif;
+	color:#414eff;
+}
+					 
+#bodyRight{	
+	width: 250px;
+	height: 1370px;
+	float: left;
+	background:url(../Image/music.jpg);
+}
+			
+#footer{	
+	width: 1000px;
+	height: 30px;
+	clear: both;
+	background-color: #57514c;
+}
+				   
+#pic{	
+	width: 12px;
+	height:12px;
+}
+					
+#fb{	
+	width: 35px;
+	height:35px;
+	margin-left:35px;
+	margin-right:25px;
+	margin-top:1145px;
+}
+					
+#yt{	
+	width: 35px;
+	height:35px;
+	margin-left:4px;
+	margin-right:22px;
+	margin-top:1145px;
+}
+					
+#gg{	
+	width: 35px;
+	height:35px;
+	margin-left:5px;
+	margin-right:25px;
+	margin-top:1145px;
+}
+
+#fb:hover, #yt:hover, #gg:hover {
+	opacity: 0.7;
+}
+					
+#link{	
+	margin-top:0;
+	margin-left:15px;
+}
+					
+#number{
+	text-decoration:none;
+	background-color: #e3cdbb;
+	border-radius:5px;
+}
+			
+#number:hover{
+	background-color: #e3c194;
+	color:#e37014;
+}
+			
+#number:visited{
+	background-color: #e3c194;
+	color:#e37014;
+}
+			
+*{
+	margin:0px;
+	padding:0px;
+}
+			
+ul#navmenu{
+	margin-top:80px;
+	list-style-type:none;
+}
+			
+ul#navmenu li{
+	width:135px;
+	height:30px;
+	position:relative;
+	text-align:center;
+}
+			
+ul#navmenu a{
+	text-decoration:none;
+	width:135px;
+	height: 25px;
+	display: block;
+	background-color: #e3cdbb;
+	border-radius:5px;
+}
+			
+ul#navmenu a:hover{
+	background-color: #e3c194;
+	color:#e37014;
+}
+			
+ul#navmenu a:visited{
+	background-color: #e3c194;
+	color:#e37014;
+}

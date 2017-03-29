@@ -1,0 +1,14 @@
+table {
+    width: 97%;
+	color:#1f1616;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid black;
+    padding: 10px;
+	box-shadow: 10px 10px 5px #1f1616;
+}
+
+td{ 
+   border: 1px solid black;
+   padding:.5em 5px;
+}
