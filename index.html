@@ -1,176 +1,222 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" href="Css/menu_files/mbcsmbmcp.css" type="text/css" />
+		<title>សំនៀងអតីតកាល</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" type="image/png" href="Image/icon.png" />
-		<link href="Css/indexStyle.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="Css/bootstrap.css" type="text/css">
+		<link href="Css/font.css" rel="stylesheet" type="text/css" />
 		<link href="Css/slideshow.css" rel="stylesheet" type="text/css" />
+		<script src="Js/jQuery.js" type="text/javascript"></script>
+		<script src="Js/bootstrap.js" type="text/javascript"></script>
 		<script src="Js/slideshow.js" type="text/javascript"></script>
-		<title>Golden Voice</title>
 	</head>
-	
+
 	<body>
-		<center>
-		<div id="wrap">
-			<div id="head">
-				<div id="headLeft"><img src="Image/logo.png"/></div>
-				<div id="headRight">
-					<div id="mbmcpebul_wrapper" style="max-width: 658px;">
-						<ul id="mbmcpebul_table" class="mbmcpebul_menulist css_menu">
-							<li><div class="buttonbg" style="width: 86px;"><a href="index.html">ទំព័រដើម</a></div></li>
-							<li><div class="arrow buttonbg" style="width: 116px;"><a class="button_2">តារាចម្រៀង</a></div>
-						<ul>
-							<li><a href="Html/men.html">តារាប្រុស</a></li>
-							<li class="last_item"><a href="Html/women.html">តារាស្រី</a></li>
-						</ul></li>
-							<li><div class="buttonbg" style="width: 98px;"><a href="Html/song.html">បទចម្រៀង</a></div></li>
-							<li><div class="buttonbg" style="width: 73px;"><a href="Html/picture.html">រូបភាព</a></div></li>
-							<li><div class="buttonbg"><a href="Html/background.html">ជីវប្រវត្តិ</a></div></li>
-							<li><div class="buttonbg"><a href="Html/about.html">អំពីពួកខ្ញុំ</a></div></li>
-							<li><div class="buttonbg" style="width: 93px;"><a href="Html/contact.html">ទំនាក់ទំនង</a></div></li>
-						</ul>
-					</div>
+		<nav class="navbar navbar-default" id="menu">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html" style="background-image: url(Image/logo.png);"><p id="homeMenu"></p></a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html">ទំព័រដើម<span class="sr-only">(current)</span></a></li>
+							
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">តារាចម្រៀង<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="Html/men.html">តារាប្រុស</a></li>
+								<li><a href="Html/women.html">តារាស្រី</a></li>
+							</ul>
+						</li>
+							
+						<li><a href="Html/song.html">បទចម្រៀង<span class="sr-only">(current)</span></a></li>
+						<li><a href="Html/picture.html">រូបភាព<span class="sr-only">(current)</span></a></li>
+						<li><a href="Html/background.html">ជីវប្រវត្តិ<span class="sr-only">(current)</span></a></li>
+						<li><a href="Html/about.html">អំពីពួកខ្ញុំ<span class="sr-only">(current)</span></a></li>
+						<li><a href="Html/contact.html">ទំនាក់ទំនង<span class="sr-only">(current)</span></a></li>
+					</ul>
 				</div>
 			</div>
+		</nav>	
+	
+  
+		<div class="container" id="container">
+			<h1 id="title">សំនៀងអតីតកាល</h1>
+			<h3 id="subtitle"><strong>ប្រជុំតារាចម្រៀងជំនាន់ដើម (១៩៦០s - ១៩៧០s)</strong></h3>
+			<hr>
 			
-			<div id="body">
-				<div id="bodyLeft">
-					<font face="Khmer Nagari" color="#f17c14"​ size="24">
-						<b>សំនៀងអតីតកាល</b><br/>
-					</font>
-					
-					<h1 id="head">ប្រជុំតារាចម្រៀងជំនាន់ដើម (១៩៦០s - ១៩៧០s)</h1>
-					
-					<table>
-						
-						<tr><tr><tr><tr><tr><tr><tr><tr><tr><tr>
-						<tr><td>
-							<td align="center"><img src="Image/singer/rr.png" usemap="#sothea"/>
-																<map name="sothea">
-																	<area shape="rect"
-																	coords="17,0,177,219"
-																	title="ចុចមើល"
-																	href="Html/sotheasong.html"/></map>
-							<td align="center"><img src="Image/singer/s.png" usemap="#samoth"/>
-																<map name="samoth">
-																	<area shape="rect"
-																	coords="17,0,177,219"
-																	title="ចុចមើល"
-																	href="Html/samothsong.html"/></map>
-							<td align="center"><img src="Image/singer/pp.png" usemap="#ron"/>
-																<map name="ron">
-																	<area shape="rect"
-																	coords="17,0,177,219"
-																	title="ចុចមើល"
-																	href="Html/ronsong.html"/></map>
-						
-						<tr><td style="padding-top:0px; margin-top:0px;">
-							<td align="center" style="padding-top:0px; margin-top:0px;"><b>រស់ សិរីសុទ្ធា</b>
-							<td align="center" style="padding-top:0px; margin-top:0px;"><b>ស៊ិន ស៊ីសាមុត</b>
-							<td align="center" style="padding-top:0px; margin-top:0px;"><b>ប៉ែន រ៉ន</b>
-						
-						<tr><tr><tr><tr><tr><tr>
-						
-						<tr><td>
-							<td align="center"><img src="Image/singer/m.png" usemap="#samon"/>
-																<map name="samon">
-																	<area shape="rect"
-																	coords="17,0,177,219"
-																	title="ចុចមើល"
-																	href="Html/samonsong.html"/></map>
-							<td align="center"><img src="Image/singer/hh.png" usemap="#meas"/>
-																<map name="meas">
-																	<area shape="rect"
-																	coords="17,0,177,219"
-																	title="ចុចមើល"
-																	href="Html/meassong.html"/></map>
-							<td align="center"><img src="Image/singer/mh.png" usemap="#seng"/>
-																<map name="seng">
-																	<area shape="rect"
-																	coords="17,0,177,219"
-																	title="ចុចមើល"
-																	href="Html/sengsong.html"/></map>
-						
-						<tr><td style="padding-top:0px; margin-top:0px;">
-							<td align="center" style="padding-top:0px; margin-top:0px;"><b>មាស សាម៉ន</b>
-							<td align="center" style="padding-top:0px; margin-top:0px;"><b>ហួយ មាស</b>
-							<td align="center" style="padding-top:0px; margin-top:0px;"><b>មាស ហុកសេង</b>
-						
-						<tr><tr><tr><tr><tr><tr>
-						
-						<tr><td>
-							<td align="center"><img src="Image/singer/so.png" usemap="#voeun"/>
-																<map name="voeun">
-																	<area shape="rect"
-																	coords="17,0,177,219"
-																	title="ចុចមើល"
-																	href="Html/voeunsong.html"/></map>
-							<td align="center"><img src="Image/singer/sm.png" usemap="#math"/>
-																<map name="math">
-																	<area shape="rect"
-																	coords="17,0,177,219"
-																	title="ចុចមើល"
-																	href="Html/mathsong.html"/></map>
-							<td align="center"><img src="Image/singer/maa.png" usemap="#reth"/>
-																<map name="reth">
-																	<area shape="rect"
-																	coords="17,0,177,219"
-																	title="ចុចមើល"
-																	href="Html/rethsong.html"/></map>
-						
-						<tr><td style="padding-top:0px; margin-top:0px;">
-							<td align="center" style="padding-top:0px; margin-top:0px;"><b>សូ សាវឿន</b>
-							<td align="center" style="padding-top:0px; margin-top:0px;"><b>សុះ ម៉ាត់</b>
-							<td align="center" style="padding-top:0px; margin-top:0px;"><b>ម៉ៅ សារ៉េត</b>
-						
-						<tr><tr><tr><tr><tr><tr>
-						
-						<tr><td>
-							<td align="center"><img src="Image/singer/kk.png" usemap="#rath"/>
-																<map name="rath">
-																	<area shape="rect"
-																	coords="17,0,177,219"
-																	title="ចុចមើល"
-																	href="Html/rathsong.html"/></map>
-						
-						<tr><td style="padding-top:0px; margin-top:0px;">
-							<td align="center" style="padding-top:0px; margin-top:0px;"><b>កែវ សារ៉ាត់</b>
-					</table>
-				</div>
-				<div id="bodyRight">
-					<div class="slideshow-container" style="text-align:center; margin-top:100px;">
-
-						<div class="mySlides fade">
-							<a href="Html/song.html"><img src="Image/បទចម្រៀងល្បីៗ.png" alt="img_One" title="បទចម្រៀង" /></a>
-						</div>
-
-						<div class="mySlides fade">
-							<a href="Html/picture.html"><img src="Image/រូបភាពផ្សេងៗ.png" alt="img_Two" title="រូបភាព" /></a>
-						</div>
-
-						<div class="mySlides fade">
-							<a href="Html/background.html"><img src="Image/ជីវប្រវត្តិទូទៅ.png" alt="img_Three" title="ជីវប្រវត្តិ" /></a>
-						</div>
-			
-					</div>
+			<div id="bodyLeft">
+				<div>
+					<img src="Image/singer/rr.png" class="img-responsive" usemap="#sothea"/>
+						<map name="sothea">
+							<area shape="rect"
+								  coords="17,0,177,219"
+							      title="ចុចមើល"
+							      href="Html/sotheasong.html"/>
+						</map>
 					<br>
-
-					<div style="text-align:center">
-						<span class="dot"></span> 
-						<span class="dot"></span> 
-						<span class="dot"></span> 
-					</div>
+					<p><strong>រស់ សិរីសុទ្ធា</strong></p>
+					<br>
+				</div>
+				
+				<div>
+					<img src="Image/singer/m.png" class="img-responsive" usemap="#samon"/>
+						<map name="samon">
+							<area shape="rect"
+								  coords="17,0,177,219"
+								  title="ចុចមើល"
+								  href="Html/samonsong.html"/>
+						</map>
+					<br>
+					<p><strong>មាស សាម៉ន</strong></p>
+					<br>
+				</div>
+				
+				<div>
+					<img src="Image/singer/so.png" class="img-responsive" usemap="#voeun"/>
+						<map name="voeun">
+							<area shape="rect"
+								  coords="17,0,177,219"
+								  title="ចុចមើល"
+								  href="Html/voeunsong.html"/>
+						</map>
+					<br>
+					<p><strong>សូ សាវឿន</strong></p>
+					<br>
+				</div>
+				
+				<div>
+					<img src="Image/singer/kk.png" class="img-responsive" usemap="#rath"/>
+						<map name="rath">
+							<area shape="rect"
+								  coords="17,0,177,219"
+								  title="ចុចមើល"
+								  href="Html/rathsong.html"/>
+						</map>
+					<br>
+					<p><strong>កែវ សារ៉ាត់</strong></p>
+					<br>
 				</div>
 			</div>
 			
-			<div id="footer" align="center">
-				<font face="Khmer Unicode F1" color="white">
-					រក្សាសិទ្ធិ  &copy; ២០១៧
-				</font>
+			<div id="afterLeft">
+				<div>
+					<img src="Image/singer/s.png" class="img-responsive" usemap="#samoth"/>
+						<map name="samoth">
+							<area shape="rect"
+								  coords="17,0,177,219"
+								  title="ចុចមើល"
+								  href="Html/samothsong.html"/>
+						</map>
+					<br>
+					<p><strong>ស៊ិន ស៊ីសាមុត</strong></p>
+					<br>
+				</div>
+				
+				<div>
+					<img src="Image/singer/hh.png" class="img-responsive" usemap="#meas"/>
+						<map name="meas">
+							<area shape="rect"
+								  coords="17,0,177,219"
+								  title="ចុចមើល"
+								  href="Html/meassong.html"/>
+						</map>
+					<br>
+					<p><strong>ហួយ មាស</strong></p>
+					<br>
+				</div>
+				
+				<div>
+					<img src="Image/singer/sm.png" class="img-responsive" usemap="#math"/>
+						<map name="math">
+							<area shape="rect"
+								  coords="17,0,177,219"
+								  title="ចុចមើល"
+								  href="Html/mathsong.html"/>
+						</map>
+					<br>
+					<p><strong>សុះ ម៉ាត់</strong></p>
+					<br>
+				</div>
 			</div>
 			
+			<div id="bodyRight">
+				<div>
+					<img src="Image/singer/pp.png" class="img-responsive" usemap="#ron"/>
+						<map name="ron">
+							<area shape="rect"
+								  coords="17,0,177,219"
+								  title="ចុចមើល"
+								  href="Html/ronsong.html"/>
+						</map>
+					<br>
+					<p><strong>ប៉ែន រ៉ន</strong></p>
+					<br>
+				</div>
+				
+				<div>
+					<img src="Image/singer/mh.png" class="img-responsive" usemap="#seng"/>
+						<map name="seng">
+							<area shape="rect"
+								  coords="17,0,177,219"
+								  title="ចុចមើល"
+								  href="Html/sengsong.html"/>
+						</map>
+					<br>
+					<p><strong>មាស ហុកសេង</strong></p>
+					<br>
+				</div>
+				
+				<div>
+					<img src="Image/singer/maa.png" class="img-responsive" usemap="#reth"/>
+						<map name="reth">
+							<area shape="rect"
+								  coords="17,0,177,219"
+								  title="ចុចមើល"
+								  href="Html/rethsong.html"/>
+						</map>
+					<br>
+					<p><strong>ម៉ៅ សារ៉េត</strong></p>
+					<br>
+				</div>
+			</div>
+			
+			<div id="afterRight">
+				<div class="slideshow">
+					<div class="mySlides fadeIn">
+						<a href="Html/song.html"><img src="Image/បទចម្រៀងល្បីៗ.png" class="img-responsive" alt="img_One" title="បទចម្រៀង" /></a>
+					</div>
+
+					<div class="mySlides fadeIn">
+						<a href="Html/picture.html"><img src="Image/រូបភាពផ្សេងៗ.png" class="img-responsive" alt="img_Two" title="រូបភាព" /></a>
+					</div>
+
+					<div class="mySlides fadeIn">
+						<a href="Html/background.html"><img src="Image/ជីវប្រវត្តិទូទៅ.png" class="img-responsive" alt="img_Three" title="ជីវប្រវត្តិ" /></a>
+					</div>
+				</div>
+				
+				<br>
+
+				<div style="text-align:center">
+					<span class="dot"></span> 
+					<span class="dot"></span> 
+					<span class="dot"></span> 
+				</div>
+			</div>
 		</div>
-		</center>
+		
+		<div class="footer">
+			រក្សាសិទ្ធិ  &copy; ២០១៧
+		</div>
 	</body>
 </html>

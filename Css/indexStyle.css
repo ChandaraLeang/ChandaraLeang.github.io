@@ -7,8 +7,8 @@ body {
 }
 				
 #wrap{	
-	width: 1000px;
-	height: 1700px;
+	width: 100%;
+	height: 100%;
 }
 
 table.center {
@@ -17,15 +17,15 @@ table.center {
 }
 				 
 #headLeft{	
-	width: 300px;
-	height: 300px;
+	width: 10%;
+	height: 30%;
 	float: left;
 	background:url(../Image/violinleft.jpg);
 }
 					 
 #headRight{	
-	width: 700px;
-	height: 300px;
+	width: 70%;
+	height: 30%;
 	float: left;
 	background:url(../Image/violinright2.jpg);
 }
@@ -33,8 +33,8 @@ table.center {
 #body{	clear:both;}
 			
 #bodyLeft{	
-	width: 750px;
-	height: 1370px;
+	width: 70%;
+	height: 65%;
 	float: left;
 	background-color: #feea67;
 	font-family: "Khmer Nettra",sans-serif;
@@ -42,15 +42,15 @@ table.center {
 }
 					 
 #bodyRight{	
-	width: 250px;
-	height: 1370px;
+	width: 10%;
+	height: 65%;
 	float: left;
 	background:url(../Image/music.jpg);
 }
 			
 #footer{	
-	width: 1000px;
-	height: 30px;
+	width: 80%;
+	height: 5%;
 	clear: both;
 	background-color: #57514c;
 }
