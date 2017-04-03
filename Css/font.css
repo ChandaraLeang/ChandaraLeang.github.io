@@ -107,9 +107,7 @@ img{
     margin-right: auto;
 }
 
-#myImg{
-	width: 150px;
-	height: 150px;
+#mySelf{
 	border: 2px solid white;
 	margin-top: 10px;
 }
@@ -127,4 +125,9 @@ img{
 #thirdRowSong{
 	width: 25px;
 	padding-top: 25px;
+}
+
+#imgFirstContact{
+	width: 150px;
+	height: 150px;
 }
