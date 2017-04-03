@@ -107,7 +107,7 @@ img{
     margin-right: auto;
 }
 
-#mySelf{
+.mySelf{
 	border: 2px solid white;
 	margin-top: 10px;
 }
@@ -127,7 +127,7 @@ img{
 	padding-top: 25px;
 }
 
-#imgFirstContact{
+.imgFirstContact{
 	width: 150px;
 	height: 150px;
 }
