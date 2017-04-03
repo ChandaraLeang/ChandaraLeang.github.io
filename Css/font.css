@@ -106,3 +106,25 @@ img{
 	margin-left: auto;
     margin-right: auto;
 }
+
+#myImg{
+	width: 150px;
+	height: 150px;
+	border: 2px solid white;
+	margin-top: 10px;
+}
+
+#songTitle{
+	padding-top: 15px;
+	padding-left: 0px;
+	text-align: center;
+}
+
+#firstRowSong{
+	width: 70px;
+}
+
+#thirdRowSong{
+	width: 25px;
+	padding-top: 25px;
+}
